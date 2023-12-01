@@ -6,8 +6,7 @@ import { getGifs } from '../helpers/getGifs';
 //argumento
 export const useFetchGifs = ( category ) => {// Creamos una variable de estado images y una función para actualizarla setImages
 const [images, setImages] = useState([]);
-// Creamos una variable de estado isLoading y una función para actualizarla
-setIsLoading
+
 const [isLoading, setIsLoading] = useState( true );
 // Definimos una función asíncrona getImages
 const getImages = async() => {
